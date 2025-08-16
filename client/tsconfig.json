@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "lib": ["ES2020", "DOM"],
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "jsx": "react-jsx",
+    "skipLibCheck": true,          // ignore type checking in libraries
+    "noEmit": true,                // don’t output .js files (Vite handles build)
+    "allowJs": true,               // allow .js files
+    "checkJs": false,              // don’t type-check .js files
+    "noUnusedLocals": false,       // don’t warn unused locals
+    "noUnusedParameters": false,   // don’t warn unused params
+    "noFallthroughCasesInSwitch": false, // ignore fallthrough warnings
+    "strict": false,               // turn off strict mode
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": false
+  },
+  "include": ["src"]
+}
